@@ -1,0 +1,58 @@
+/* Sıfırlamalar */
+a { color: #282828; } a:hover { color: #e38d13; text-decoration:none;}
+.Aktif { color: #e38d13; } .Aktif:hover { color: #282828; }
+/* Body */
+body{ background:url(../Images/Tema/bg.jpg) top left repeat;}
+/* Menu Alanımız */
+#MyMenu
+{
+    margin-bottom:0px!important;
+}
+.acilirMenu li a
+{
+    color:#adadad!important;
+}
+.acilirMenu li a:hover
+{
+    color:#3a3a3a!important;
+}
+
+/* Slide Alanımız */
+#MySlide{
+    
+}
+#MySlide .item img 
+{
+    max-height: 450px!important;
+    width: 100%!important;
+}
+
+/* Anasayfa Video Liseteleme */
+.AnasayfaVideoListDiv { margin-bottom:15px!important;}
+
+/* Anasayfa Makale Listeleme Bölümü */
+.AnasayfaTab div { border: 1px solid #dadada; background: #dfdfdf!important; padding: 10px; }
+.AnasayfaTab div:hover { background: #d8d8d8!important; }
+.AnasayfaTab div h3 { margin-top: 5px!important; }
+.MakaleEkleyenBilgi { font-size: 13px; color:#636363; }
+.MakaleEkleyenBilgi a { font-size: 14px; color:orange; font-weight:bold;  }
+.AnasayfaMakaleResimLink { background: none; margin: 4px 5px 3px 0; padding: 0; }
+.AnasayfaMakaleResimLink img:hover { border-color: 1px solid #000; }
+
+/* Content Hover */
+.contenthover { padding:20px 20px 10px 20px; }
+.contenthover, .contenthover h3, contenthover a { color:#fff; }
+.contenthover h3, .contenthover p { margin:0 0 10px 0; line-height:1.4em; padding:0; }
+.contenthover a.mybutton { display:block; float:left; padding:5px 10px; background:#3c9632; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.contenthover a.mybutton:hover { background:#34742d }
+
+/* Yönetici Listeleme */
+.BilgiList { margin: 3px 0!important; padding: 2px 10px!important; }
+.BilgiList h3 { margin: 0 0 3px 0!important; border-bottom: 1px solid #eaeaea; padding: 2px 0!important; font-size: 20px; }
+.BilgiList h3:hover { color: #e38d13; }
+
+/* Makale Listeleri */
+.BorderHover { border-bottom: 2px solid #ddd; }
+.BorderHover:hover {border-color:#e38d13;}
+.MakaleListDiv { }
+.BorderHover:hover .MakaleListTitle, .BorderHover:hover .MakaleListImg { border-color:#e38d13; }
